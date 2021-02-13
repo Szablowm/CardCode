@@ -9,8 +9,8 @@ public class CardTrick {
     {
        CardCode card = new CardCode();
        
-       card.setSuit("Clubs");
-       card.setValue(6);
+       card.setSuit("Spades");
+       card.setValue(8);
        System.out.println(card.getSuit() + " " + card.getValue());
     }
     
