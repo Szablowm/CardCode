@@ -7,11 +7,17 @@
 public class CardTrick {
     public static void main(String[] args)
     {
-       CardCode card = new CardCode();
+       CardCode card1 = new CardCode();
        
-       card.setSuit("Clubs");
-       card.setValue(6);
-       System.out.println(card.getSuit() + " " + card.getValue());
+       card1.setSuit("Clubs");
+       card1.setValue(6);
+       System.out.println(card1.getSuit() + " " + card1.getValue());
+       
+      CardCode card2 = new CardCode();
+       
+       card2.setSuit("Spades");
+       card2.setValue(4);
+       System.out.println(card2.getSuit() + " " + card2.getValue());
     }
     
 }
